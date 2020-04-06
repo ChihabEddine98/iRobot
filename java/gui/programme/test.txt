@@ -1,0 +1,9 @@
+Si {Lire=3 Ou Lire=5} Alors
+Avancer(Lire); Tourner(Lire);
+Avancer(7);    Tourner(-3);
+Avancer(Lire); Tourner(1);
+Avancer(Lire); Tourner((2-1));
+Avancer(28); Tourner(-9);
+Avancer((Lire-Lire)); Tourner(3);
+Avancer((Lire+2)); Ecrire((Lire+10));
+Fin

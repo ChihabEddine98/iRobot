@@ -1,0 +1,59 @@
+.back{
+
+    -fx-background-image: url("imgs/back.jpg");
+    -fx-background-size: cover;
+}
+
+.grille
+{
+    -fx-background-color: linear-gradient(to bottom right, rgba(4, 4, 4, 0.61), rgba(64, 59, 85, 0.8));
+    -fx-opacity: 0.95;
+    -fx-border-width: 3px;
+    -fx-border-color: #60ff9a;
+    -fx-border-radius: 25px;
+    -fx-background-radius: 25;
+}
+.btn{
+
+    -fx-background-color: transparent;
+    -fx-border-width: 3px;
+    -fx-border-color: #f2ff09;
+    -fx-text-fill: #f2ff09;
+
+}
+.btn:hover{
+
+    -fx-background-color: #f2ff09;
+    -fx-border-width: 3px;
+    -fx-border-color: #0c0c0c;
+    -fx-text-fill: #0c0c0c;
+
+}
+
+.robot{
+
+    -fx-text-fill: white;
+    -fx-border-width: 2 0 0 0;
+    -fx-border-color: white;
+    -fx-font-size: 25px;
+    -fx-background-color: red;
+
+}
+
+.labelProg{
+
+    -fx-text-fill: white;
+    -fx-font-size: 25px;
+    -fx-pref-width: 400;
+    -fx-pref-height: 40;
+
+}
+
+.labelProgForm{
+
+    -fx-text-fill: #ff1c37;
+    -fx-font-size: 25px;
+    -fx-pref-width: 400;
+    -fx-pref-height: 40;
+
+}

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="scene" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1800.0" styleClass="back" stylesheets="@style.css" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="gui.Controller">
+   <children>
+      <AnchorPane fx:id="container" layoutX="8.0" layoutY="32.0" prefHeight="478.0" prefWidth="802.0" styleClass="grille" stylesheets="@style.css" />
+      <AnchorPane layoutX="1517.0" layoutY="21.0" prefHeight="558.0" prefWidth="243.0">
+         <children>
+            <ImageView fitHeight="172.0" fitWidth="224.0" layoutX="27.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true" rotate="-1.2">
+               <image>
+                  <Image url="@imgs/up7d.jpg" />
+               </image>
+            </ImageView>
+            <Button layoutX="23.0" layoutY="440.0" mnemonicParsing="false" onAction="#nextIns" prefHeight="76.0" prefWidth="232.0" styleClass="btn" stylesheets="@style.css" text="Next Instruction">
+               <font>
+                  <Font name="Forte" size="25.0" />
+               </font>
+            </Button>
+            <Label layoutX="34.0" layoutY="180.0" prefHeight="62.0" prefWidth="227.0" text="By : Benamara Chihab " textFill="#f8f2f2">
+               <font>
+                  <Font name="Gill Sans MT" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="66.0" layoutY="232.0" prefHeight="62.0" prefWidth="145.0" text="         &amp;" textFill="#ffeeee">
+               <font>
+                  <Font name="Gill Sans MT" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="50.0" layoutY="279.0" prefHeight="62.0" prefWidth="205.0" text="       Dissem Yassine" textFill="WHITE">
+               <font>
+                  <Font name="Gill Sans MT" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="75.0" layoutY="341.0" prefHeight="62.0" prefWidth="126.0" text="     2 MI 1" textFill="#fff6f6">
+               <font>
+                  <Font name="Gill Sans MT" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Label layoutX="259.0" layoutY="535.0" prefHeight="50.0" prefWidth="232.0" text="       2018/2019">
+         <font>
+            <Font name="Gill Sans MT" size="24.0" />
+         </font>
+      </Label>
+      <AnchorPane fx:id="progPane" layoutX="962.0" layoutY="61.0" prefHeight="478.0" prefWidth="392.0" styleClass="grille" />
+   </children>
+</AnchorPane>

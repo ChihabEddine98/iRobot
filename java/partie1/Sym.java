@@ -1,0 +1,6 @@
+package partie1;
+
+
+public enum Sym {
+	EOF, INT,PLUS,MOINS,LIRE,ECRIRE,AVANCER,TOURNER,SEMICOL,LPAR,RPAR,EPSILON
+}
