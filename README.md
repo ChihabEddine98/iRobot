@@ -1,5 +1,5 @@
 # iRobot
-iRobot is a java parsed grammar and interpreted for managing a robot in a grid !
+iRobot is a java for CFG grammar and interpreted for managing a robot in a grid !
 # Get Started 
 You need `Jflex` installed to compile the **`lexer.flex`** file and generate **`Lexer.java`** 
 To do this you can tape in terminal :
